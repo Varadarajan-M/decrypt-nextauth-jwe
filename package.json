@@ -1,0 +1,27 @@
+{
+	"name": "decrypt-nextauth-jwe",
+	"version": "1.0.0",
+	"description": "This is a package which can be used to decrypt and extract the payload from a next auth jwe token",
+	"main": "index.js",
+	"scripts": {
+		"compile": "rm -rf dist/lib && tsc && tsc --build tsconfig.es5.json"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Varadarajan-M/decrypt-nextauth-jwe.git"
+	},
+	"keywords": [
+		"JWE",
+		"nextauth",
+		"decrypt generated JWE token in external API"
+	],
+	"author": "Varadarajan M",
+	"license": "ISC",
+	"dependencies": {
+		"@panva/hkdf": "^1.1.1",
+		"jose": "^4.14.4"
+	},
+	"devDependencies": {
+		"typescript": "^5.1.6"
+	}
+}
