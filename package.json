@@ -1,6 +1,6 @@
 {
-	"name": "decrypt-nextauth-jwe",
-	"version": "1.0.0",
+	"name": "nextauth-jwe-decrypt",
+	"version": "1.0.1",
 	"description": "This is a package which can be used to decrypt and extract the payload from a next auth jwe token",
 	"main": "index.js",
 	"scripts": {
